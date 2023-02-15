@@ -46,26 +46,26 @@ const estilos = StyleSheet.create({
         lineHeight: 26,
     },
     preco: {
-        color: "#2a9f85",
+        color: "#000",
         fontWeight: "bold",
         fontSize: 26,
         lineHeight: 42,
         marginTop: 8
     },
     botao: {
-        marginTop: 25,
-        backgroundColor: "000",
-        alignItems: "center",
+        marginTop: 16,
+        backgroundColor: "black",
+        paddingVertical: 16,
+        borderRadius: 10,
         marginLeft: "auto",
         marginRight: "auto",
-        paddingBottom: 20,
-        paddingTop: 20,
-        borderRadius: 50,
-        width: "60%"
+        width: "70%"
     },
     textoBotao: {
+        textAlign: "center",
         color: "white",
         fontSize: 19,
+        lineHeight: 26,
         fontWeight: "bold"
     }
 })
